@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Employee Salary Prediction</h2>
+
+<form action="/predict" method="post">
+
+Age:<br>
+<input type="number" name="Age" required><br>
+
+Years of Experience:<br>
+<input type="number" name="Years_of_Experience" required><br>
+
+Gender:<br>
+<select name="Gender">
+  <option>Male</option>
+  <option>Female</option>
+</select><br>
+
+
+Education Level:<br>
+<select name="Education_Level">
+  <option>Bachelor</option>
+  <option>Master</option>
+  <option>PhD</option>
+</select><br>
+
+Job Title:<br>
+<select name="Job_Title">
+  <option>Analyst</option>
+  <option>Developer</option>
+  <option>Engineer</option>
+  <option>Manager</option>
+  <option>Scientist</option>
+  <option>Director</option>
+</select><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
